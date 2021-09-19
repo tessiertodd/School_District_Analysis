@@ -1,5 +1,3 @@
-# School_District_Analysis
-
 # Schol_District_Analysis
 
 ## Project Overview
@@ -20,41 +18,67 @@ The School Board will like to understand the impact of changing all the grade 9 
 - Language: Python 3.6.7
 
 ## Analysis Results
-The analysis shows  the following:
-- There were 369,711 votes cast in the election.
 
-![Table for total votes](https://github.com/tessiertodd/Election_Analysis/blob/main/Resources/Total%20Election%20Results.png)
+## Impact on District Analysis
+***District Analysis - Original***
+![Table_for_District_Analysis_Original](https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/District%20DataFrame%20Original.png)
+***Top Schools - Updated***
+![Table_for_District_Analysis_New](https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/District%20DataFrame%20Updated.png)
+- The change of adding Nan to all grade 9 and Thomas High School math and reading scores did not have an impact on the district analysis.
 
-- County names where voting took place, % votes of each and number of votes
-  - Jefferson had 10.5% of votes (38,855 votes)
-  - Denver had 82.8% of votes (306,055 votes)
-  - Arapahoe had 6.7% of votes (24,801 votes)
- - Denver was the county with the most votes at 82.8%
- 
- Code to print out the winning county and snippet of printout:
- ![Table Winning County Code](https://github.com/tessiertodd/Election_Analysis/blob/main/Resources/Winning%20County%20code.png)
- 
- ![Table Winning County](https://github.com/tessiertodd/Election_Analysis/blob/main/Resources/Winning%20County.png)
-    
-  Here is a view of the code used to count the votes by county and then code to print out and save to text file:
- ![Table_County_Names_Count](https://github.com/tessiertodd/Election_Analysis/blob/main/Resources/County%20Votes%20-%20counting%20code.png)
- ![Table County Codes Count](https://github.com/tessiertodd/Election_Analysis/blob/main/Resources/County%20Votes%20code.png)
-  
-- Candidate names, % of total votes each had and number of votes
-  - Charles Casper Stockham 23.0% of votes (85,213 votes)
-  - Diana DeGette 73.8% of votes (272,892 votes)
-  - Raymon Anthony Doane 3.1% of votes (11,606 votes)
+### Impact on the School Summary & Thomas High School Relative Performance
+***Top Schools - Original***
+![Table for Top Schools Original](https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/School%20Summary%20Top%20Original.png)
+***Top Schools - Updated***
+![Table for Top Schools New](https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/School%20Summary%20Top%20New.png)
+-  The ranking of the top schools including Thomas High School was not affected by the update.
+- While the average math, reading and overall scores at Thomas High School were impacted with the update, the changes were not enough to change its relative ranking versus other schools. The changes only reduced any of the scores by 0.1% at most.
 
-![Table Candidate Names](https://github.com/tessiertodd/Election_Analysis/blob/main/Resources/Candidate%20names.png) 
+***Bottom Schools - Original***
+![Table for Bottom Schools Original](https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/School%20Summary%20Bottom%20Original.png)
+***Bottom Schools - Updated***
+![Table for Bottom Schools New](https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/School%20Summary%20Bottom%20New.png)
+-   The ranking of the bottom schools was not affected by the update.
 
-- The election winner is:
-  - Diana DeGette with 73.8% of votes (272,892 votes)
+### Impact on Math and Reading Scores by Grade
 
-![Table Winning Candidate](https://github.com/tessiertodd/Election_Analysis/blob/main/Resources/Winning%20Candidate.png)
+***Math Scores - Original***
+![Table with math scores original](https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/Math%20Scores%20by%20Grade%20Original.png)
 
+***Math Scores - Updated***
+![Table with math scores new]( https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/Math%20Scores%20by%20Grade%20New.png)
 
+***Reading Scores - Original***
+![Table with reading scores original](https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/Reading%20Scores%20by%20Grade%20Original.png)
 
-## Challenge Summary
+***Reading Scores - Updated***
+![Table with reading scores updated](https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/Reading%20Scores%20by%20Grade%20New.png)
 
-## Election-Audit Summary:
-sssss
+- The only score that is impacted on this DataFrame is that the grade 9 students have Nan instead of a grade for both math and reading.  If we ran a sum or mean of the DataFrame, we would see a difference betweed the orignal and updated.
+
+## Impact on Scores by School Spending
+***Original***
+![Table on score by spending original](https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/Scores%20by%20Student%20Spending%20Original.png)
+***Updated***
+![Table on score by spending updated](https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/Scores%20by%20Student%20Spending%20New.png)
+- There was no change in the scores by school spending groups.
+
+## Impact on Scores by School Size
+***Original***
+![Table for scores by school size original](https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/Score%20by%20School%20Size%20Original.png)
+***Updated***
+![Table for scores by school size updated](https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/Score%20by%20School%20Size%20New.png)
+- SOMETHING WRONG WITH READING.. WHY DIFFERENT??
+
+## Impact on Scores by School Type
+***Original***
+![Table for scores by school original](https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/Scores%20by%20School%20Type%20Original.png)
+
+***Updated***
+![Table for scores by school updated](https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/Scores%20by%20School%20Type%20New.png)
+- The change did not impact the scores by school type.
+
+## Project Learning
+I have learnt that is you run 2 Jupyter Notebook files in the same folder with ... 
+
+## Summary
