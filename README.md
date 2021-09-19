@@ -46,7 +46,7 @@ The School Board will like to understand the impact of changing all the grade 9 
 ![Table with math scores original](https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/Math%20Scores%20by%20Grade%20Original.png)
 
 ***Math Scores - Updated***
-![Table with math scores new]( https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/Math%20Scores%20by%20Grade%20New.png)
+![Table with math scores new](https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/Math%20Scores%20by%20Grade%20New.png)
 
 ***Reading Scores - Original***
 ![Table with reading scores original](https://github.com/tessiertodd/School_District_Analysis/blob/main/Resources/Reading%20Scores%20by%20Grade%20Original.png)
@@ -79,6 +79,6 @@ The School Board will like to understand the impact of changing all the grade 9 
 - The change did not impact the scores by school type.
 
 ## Project Learning
-I have learnt that is you run 2 Jupyter Notebook files in the same folder with ... 
+I have learnt that...
 
 ## Summary
